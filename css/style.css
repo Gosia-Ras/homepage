@@ -1,0 +1,231 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.header {
+    font-family: 'Nunito', sans-serif;
+    color: #080808;
+    background-color: #19c9ab;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    text-align: center;
+    margin: 3% 30%;
+}
+
+.header__main {
+    background-color: #0495a0a6;
+    border: 3px solid rgb(1, 100, 100);
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 15px 10px 16px -2px #54F7D9;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 1%;
+    margin: 5% 20%;
+}
+
+.aside--left {
+    width: 30%;
+    float: left;
+    color: #29627e;
+}
+
+
+.navigation {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 10px;
+}
+
+.navigation__list {
+    list-style: none;
+    background-color: rgba(5, 192, 192, 0.521);
+    border: 1px solid black;
+    border-radius: 25px;
+    margin: 0 35%;
+    padding: 10px;
+    line-height: 2;
+}
+
+.navigation__link {
+    color: blue;
+}
+
+.navigation__link:visited {
+    color: rgb(46, 0, 119);
+}
+
+.navigation__link:hover {
+    color: rgb(3, 51, 54);
+    background-color: rgb(114, 164, 221);
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: purple;
+}
+
+.image {
+    margin: 25px 0;
+    border: 2px solid rgb(1, 100, 100);
+    border-radius: 20px;
+    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80%;
+}
+
+.js-imageHide {
+    display: block;
+}
+
+.article {
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5;
+}
+
+.article__paragraphMe {
+    background-color: gainsboro;
+}
+
+.article__paragraphRecently {
+    background-color: rgba(233, 231, 231, 0.74);
+}
+
+.article__paragraphHobbies {
+    background-color: rgba(220, 220, 220, 0.418);
+}
+
+.article__list {
+    background-color: rgba(220, 220, 220, 0.418);
+}
+
+.article__paragraphGames {
+    background-color: rgba(220, 220, 220, 0.274);
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table__caption {
+    background-color: rgb(10, 248, 208);
+    border: 1px solid darkcyan;
+    border-radius: 20px 20px 0px 0px;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.table__cell {
+    border: 1px solid #09857a;
+    padding: 15px;
+    text-align: center;
+}
+
+.table__header {
+    background-color: rgb(217, 219, 219);
+}
+
+.table__gameTitle {
+    font-weight: normal;
+}
+
+.table__row:nth-child(even) {
+    background: rgb(209, 245, 240);
+}
+
+.table__row:hover {
+    background: #dddd;
+}
+
+.table__linkDescription {
+    font-size: 70%;
+}
+
+.container {
+    overflow-x: auto;
+    padding: 30px;
+}
+
+.list__header {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(10, 248, 208);
+    border: 2px solid rgb(1, 100, 100);
+    border-radius: 20px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.list--default {
+    list-style: square;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px;
+    margin-left: 25%;
+    list-style-position: inside;
+    line-height: 2;
+}
+
+.button__image {
+    background-color: #62dbc7;
+    border: 3px solid rgb(2, 97, 97);
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button__image:hover {
+    position: relative;
+    box-shadow: 5px 5px 16px 2px #3AF2BE;
+}
+
+.container__images {
+    display: block;
+}
+
+.container__images--hide {
+    display: none;
+}
+
+.link {
+    color: rgb(0, 71, 71);
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: darkcyan;
+}
+
+.link:hover {
+    color: darkorchid;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.link:active {
+    color: purple;
+}
+
+.footer {
+    color: slategrey;
+    padding-top: 15%;
+    text-align: center;
+}
