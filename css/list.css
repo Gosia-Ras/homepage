@@ -1,0 +1,20 @@
+
+.list__header {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(10, 248, 208);
+    border: 2px solid rgb(1, 100, 100);
+    border-radius: 20px;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.list--default {
+    list-style: square;
+    font-family: 'Roboto', sans-serif;
+    padding: 50px;
+    margin-left: 25%;
+    list-style-position: inside;
+    line-height: 2;
+}

@@ -1,0 +1,24 @@
+.article {
+    font-family: "Nunito", sans-serif;
+    line-height: 1.5;
+}
+
+.article__paragraphMe {
+    background-color: gainsboro;
+}
+
+.article__paragraphRecently {
+    background-color: rgba(233, 231, 231, 0.74);
+}
+
+.article__paragraphHobbies {
+    background-color: rgba(220, 220, 220, 0.418);
+}
+
+.article__list {
+    background-color: rgba(220, 220, 220, 0.418);
+}
+
+.article__paragraphGames {
+    background-color: rgba(220, 220, 220, 0.274);
+}

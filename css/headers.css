@@ -1,0 +1,22 @@
+
+.header {
+    font-family: 'Nunito', sans-serif;
+    color: #080808;
+    background-color: #19c9ab;
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    text-align: center;
+    margin: 3% 30%;
+}
+
+.header__main {
+    background-color: #0495a0a6;
+    border: 3px solid rgb(1, 100, 100);
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 15px 10px 16px -2px #54F7D9;
+    font-size: 150%;
+    font-weight: bold;
+    padding: 1%;
+    margin: 5% 20%;
+}

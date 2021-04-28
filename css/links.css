@@ -1,0 +1,19 @@
+.link {
+    color: rgb(0, 71, 71);
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+}
+
+.link:visited {
+    color: darkcyan;
+}
+
+.link:hover {
+    color: darkorchid;
+    border-bottom: 1px solid;
+    outline: none;
+}
+
+.link:active {
+    color: purple;
+}

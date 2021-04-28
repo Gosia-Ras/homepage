@@ -1,0 +1,45 @@
+.container {
+    overflow-x: auto;
+    padding: 30px;
+}
+
+.table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.table__caption {
+    background-color: rgb(10, 248, 208);
+    border: 1px solid darkcyan;
+    border-radius: 20px 20px 0px 0px;
+    font-weight: bolder;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.table__cell {
+    border: 1px solid #09857a;
+    padding: 15px;
+    text-align: center;
+}
+
+.table__header {
+    background-color: rgb(217, 219, 219);
+}
+
+.table__gameTitle {
+    font-weight: normal;
+}
+
+.table__row:nth-child(even) {
+    background: rgb(209, 245, 240);
+}
+
+.table__row:hover {
+    background: #dddd;
+}
+
+.table__linkDescription {
+    font-size: 70%;
+}
