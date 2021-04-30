@@ -1,16 +1,18 @@
-# homepage
+# Homepage
 
 ## Demo: 
-https://gosia-ras.github.io/homepage/
+https://gosia-ras.github.io/homepage/ <- click here to check out how it works
 
-# Basic homepage project
-This is where I started learning HTML, CSS and Java Script. 
-Classes in CSS are named according to the BEM convention.
+## First project using:
+- HTML
+- CSS using BEM 
+- EC6+
 
+### The page contains: 
 
-The page is comprised of a few elements: 
-- navigation
-- introduction with a photo that can be hidden/shown with JS
-- table with a few games
-- list of visited countries with photos that can be shown/hidden with JS 
+- navigation with links leading to different sections
+- introduction
+- table with a few games, clickable links that lead to the games Steam store
+- list of visited countries
+- photos with buttons showing/hiding them on click
 
