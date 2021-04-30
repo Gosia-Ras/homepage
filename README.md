@@ -16,3 +16,4 @@ https://gosia-ras.github.io/homepage/ <- click here to check out how it works
 - list of visited countries
 - photos with buttons showing/hiding them on click
 
+![Gif of scrolling the website](https://github.com/Gosia-Ras/homepage/blob/main/images/Animation.gif?raw=true)
