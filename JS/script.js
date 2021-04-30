@@ -1,29 +1,33 @@
 {
+    const containerButton = document.querySelector(".js-buttonHideContainer");
+    const hidePhotoButton = document.querySelector(".js-buttonHideImage");
+
     const showPhotosContainer = () => {
 
+        const imagesContainer = document.querySelector(".js-imagesContainer");
 
-        const imagesContainer = document.querySelector(".js-container__images");
+        imagesContainer.classList.toggle("imagesContainer--hidden");
 
-        imagesContainer.classList.toggle("container__images--hidden");
-        containerButton.innerText = imagesContainer.contains("container__images--hidden") ? "Show photo" : "Hide photo";
+        containerButton.innerText = imagesContainer.classList.contains("imagesContainer--hidden") ? "Hide photos" : "Show photos";
+        
+
     }
-
 
 
 
     const hideIntroductionPhoto = () => {
 
-        const image = document.querySelector(".image");
+        const image = document.querySelector(".js-image");
 
-        image.classList.toggle("js-image--hidden");
-        hidePhotoButton.innerText = image.classList.contains("js-image--hidden") ? "Hide photo" : "Show photo";
+        image.classList.toggle("image--hidden");
+        hidePhotoButton.innerText = image.classList.contains("image--hidden") ? "Show photo" : "Hide photo";
 
 
     };
 
     const init = () => {
-        const hidePhotoButton = document.querySelector(".js-button__image--hidden");
-        const containerButton = document.querySelector(".js-container__button");
+
+    
         hidePhotoButton.addEventListener("click", hideIntroductionPhoto);
         containerButton.addEventListener("click", showPhotosContainer);
     };
