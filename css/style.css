@@ -21,7 +21,7 @@ html {
     max-width: 80%;
 }
 
-.js-imageHide {
+.js-image--hidden {
     display: block;
 }
 
@@ -45,7 +45,7 @@ html {
     display: block;
 }
 
-.container__images--hide {
+.container__images--hidden {
     display: none;
 }
 
