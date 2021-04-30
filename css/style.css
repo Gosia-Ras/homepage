@@ -11,46 +11,5 @@ html {
     margin: auto;
 }
 
-.image {
-    margin: 25px 0;
-    border: 2px solid rgb(1, 100, 100);
-    border-radius: 20px;
-    display: none;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 80%;
-}
 
-.js-image--hidden {
-    display: block;
-}
 
-.button__image {
-    background-color: #62dbc7;
-    border: 3px solid rgb(2, 97, 97);
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: large;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.button__image:hover {
-    position: relative;
-    box-shadow: 5px 5px 16px 2px #3AF2BE;
-}
-
-.container__images {
-    display: block;
-}
-
-.container__images--hidden {
-    display: none;
-}
-
-.footer {
-    color: slategrey;
-    padding-top: 15%;
-    text-align: center;
-}
