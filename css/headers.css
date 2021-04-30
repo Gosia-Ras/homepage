@@ -6,17 +6,18 @@
     border: 2px solid darkcyan;
     border-radius: 20px;
     text-align: center;
-    margin: 3% 30%;
+    margin: 25px auto;
+    max-width: 200px;
 }
 
-.header__main {
+.pageHeader {
+    font-family: 'Nunito', sans-serif;
     background-color: #0495a0a6;
     border: 3px solid rgb(1, 100, 100);
     border-radius: 25px;
-    position: relative;
+    text-align: center;
     box-shadow: 15px 10px 16px -2px #54F7D9;
-    font-size: 150%;
+    font-size: 120%;
     font-weight: bold;
-    padding: 1%;
-    margin: 5% 20%;
+    margin: 60px auto;
 }
