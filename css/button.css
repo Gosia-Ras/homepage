@@ -1,4 +1,4 @@
-.button__image {
+.button {
     background-color: #62dbc7;
     border: 3px solid rgb(2, 97, 97);
     font-family: 'Roboto', sans-serif;
@@ -9,7 +9,7 @@
     margin-right: auto;
 }
 
-.button__image:hover {
+.button:hover {
     position: relative;
     box-shadow: 5px 5px 16px 2px #3AF2BE;
 }
