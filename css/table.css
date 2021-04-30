@@ -1,4 +1,4 @@
-.container {
+.tableContainer {
     overflow-x: auto;
     padding: 30px;
 }
@@ -24,7 +24,7 @@
     text-align: center;
 }
 
-.table__header {
+.table__cell--header {
     background-color: rgb(217, 219, 219);
 }
 
