@@ -1,0 +1,11 @@
+.pageHeader {
+    font-family: 'Nunito', sans-serif;
+    background-color: #0495a0a6;
+    border: 3px solid rgb(1, 100, 100);
+    border-radius: 25px;
+    text-align: center;
+    box-shadow: 15px 10px 16px -2px #54F7D9;
+    font-size: 120%;
+    font-weight: bold;
+    margin: 60px auto;
+}
