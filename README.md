@@ -1,19 +1,35 @@
 # Homepage
 
+This project is created as a part of front-end development course at YouCode.
+The website introduces me and my interests, as well as showcases photos I have taken.
+
+## Homepage content: 
+
+- website navigation
+- my photo with a button to hide/show it
+- introduction 
+- table with games, clickable links that lead to the games Steam store
+- list of visited countries
+- photos from my travels with a button to show/hide them
+
 ## Demo: 
 https://gosia-ras.github.io/homepage/ <- click here to check out how it works
 
-## First project using:
+## View of the homepage when first opened:
+![Printscreen of the homepage](https://raw.githubusercontent.com/Gosia-Ras/homepage/main/images/homepage-readme-small.png)
+
+## Tools and technology:
 - HTML
-- CSS using BEM 
+- CSS
+- BEM
 - EC6+
 
-### The page contains: 
+### Interactions on the homepage:
 
-- navigation with links leading to different sections
-- introduction
-- table with a few games, clickable links that lead to the games Steam store
-- list of visited countries
-- photos with buttons showing/hiding them on click
+1. Hide and show introduction photo: 
 
-![Gif of scrolling the website](https://github.com/Gosia-Ras/homepage/blob/main/images/Animation.gif?raw=true)
+![Gif of introduction photo being hidden/shown by clicking on the button](https://raw.githubusercontent.com/Gosia-Ras/homepage/main/images/introduction-photo.gif)
+
+2. Show and hide photos from Myanmar: 
+
+![Gif of multiple photos from Myanmar being shown/hidden by clicking on the button](https://raw.githubusercontent.com/Gosia-Ras/homepage/main/images/myanmar-photos.gif)
