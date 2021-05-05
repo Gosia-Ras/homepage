@@ -24,6 +24,8 @@ https://gosia-ras.github.io/homepage/ <- click here to check out how it works
 - BEM
 - EC6+
 
+Page display is optimized using media queries for comfortable use on mobile devices and large screens.
+
 ### Interactions on the homepage:
 
 1. Hide and show introduction photo: 
