@@ -18,3 +18,10 @@
     list-style-position: inside;
     line-height: 2;
 }
+
+
+@media (max-width: 768px) {
+    .listDefault {
+        padding: 0;
+    }
+}
