@@ -1,5 +1,15 @@
 {
-    const containerButton = document.querySelector(".js-buttonHideContainer");
+    const toggleDarkMode = () => {
+        const darkMode = document.querySelector(".js-darkMode");
+        
+        darkMode.classList.toggle("body--dark");
+        buttonDark.innerText = darkMode.classList.contains("body--dark") ? "Dark mode off" : "Dark mode on";
+    };
+
+    const onDarkMode = () => {
+        const buttonDark = document.querySelector(".js-onDarkButton");
+        buttonDark.addEventListener("click", toggleDarkMode);
+    }
 
     const showPhotosContainer = () => {
         const imagesContainer = document.querySelector(".js-imagesContainer");
@@ -25,4 +35,5 @@
 
     introPhotoHide();
     photosShow();
+    onDarkMode();
 };
