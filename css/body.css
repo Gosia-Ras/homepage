@@ -11,6 +11,12 @@
     'navigation main';
 }
 
+@media (max-width: 768px) {
+    .layout {
+        display: block;
+    }
+}
+
 .container__paragraph {
     grid-area: main;
 }
