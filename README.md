@@ -16,7 +16,7 @@ The website introduces me and my interests, as well as showcases photos I have t
 https://gosia-ras.github.io/homepage/ <- click here to check out how it works
 
 ## View of the homepage when first opened:
-![Printscreen of the homepage](https://raw.githubusercontent.com/Gosia-Ras/homepage/main/images/homepage-readme-small.png)
+![Printscreen of the homepage](https://raw.githubusercontent.com/Gosia-Ras/homepage/main/images/page-screenshot.png)
 
 ## Tools and technology:
 - HTML
@@ -30,8 +30,12 @@ Page display is optimized using media queries for comfortable use on mobile devi
 
 1. Hide and show introduction photo: 
 
-![Gif of introduction photo being hidden/shown by clicking on the button](https://raw.githubusercontent.com/Gosia-Ras/homepage/main/images/introduction-photo.gif)
+![Gif of introduction photo being hidden/shown by clicking on the button](https://raw.githubusercontent.com/Gosia-Ras/homepage/main/images/photo-click.gif)
 
-2. Show and hide photos from Myanmar: 
+2. Toggle dark mode: 
 
-![Gif of multiple photos from Myanmar being shown/hidden by clicking on the button](https://raw.githubusercontent.com/Gosia-Ras/homepage/main/images/myanmar-photos.gif)
+![Toggling dark mode](https://raw.githubusercontent.com/Gosia-Ras/homepage/main/images/darkmode-click.gif);
+
+3. Show and hide photos from Myanmar: 
+
+![Gif of multiple photos from Myanmar being shown/hidden by clicking on the button](https://raw.githubusercontent.com/Gosia-Ras/homepage/main/images/photos-click.gif)
