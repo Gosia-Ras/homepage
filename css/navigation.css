@@ -7,8 +7,7 @@
 .navigation__list {
     list-style: none;
     background-color: rgba(5, 192, 192, 0.521);
-    border: 1px solid black;
-    border-radius: 25px;
+    border: 1px solid rgb(1, 100, 100);
     margin: 0 auto;
     padding: 10px;
     line-height: 2;
