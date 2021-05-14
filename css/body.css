@@ -1,4 +1,19 @@
 .body {
     margin: 0 auto;
     background-color: rgba(185, 247, 247, 0.336);
+    max-width: 1200px;
+}
+
+.layout {
+    display: grid;
+    grid-template-areas: 
+    'navigation main';
+}
+
+.container__paragraph {
+    grid-area: main;
+}
+
+.container__navigation {
+    grid-area: navigation;
 }
