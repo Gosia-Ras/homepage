@@ -17,4 +17,6 @@
 
 .container__navigation {
     grid-area: navigation;
+    background-color: rgba(95, 158, 160, 0.26);
+    margin-top: 10px;
 }
