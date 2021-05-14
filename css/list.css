@@ -1,20 +1,14 @@
 
 .header--list {
-    background-color: rgb(10, 248, 208);
-    border: 2px solid rgb(1, 100, 100);
-    border-radius: 20px;
-    max-width: 60%;
-    margin: 40px auto;
-    text-align: center;
     padding: 5px;
+    margin: 0 auto;
 }
 
 .listDefault {
     list-style: square;
-    padding: 50px;
-    margin-left: 25%;
     list-style-position: inside;
     line-height: 2;
+    margin: 0 auto;
 }
 
 
