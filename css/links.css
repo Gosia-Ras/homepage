@@ -1,5 +1,5 @@
 .link {
-    color: rgb(0, 71, 71);
+    color: rgb(37, 78, 78);
     text-decoration: none;
 }
 
@@ -8,11 +8,12 @@
 }
 
 .link:hover {
-    color: darkorchid;
+    color: rgb(121, 51, 235);
     border-bottom: 1px solid;
     outline: none;
+    padding: 2px;
 }
 
 .link:active {
-    color: purple;
+    color: rgb(165, 59, 165);
 }
