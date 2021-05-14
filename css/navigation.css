@@ -6,12 +6,11 @@
 
 .navigation__list {
     list-style: none;
-    background-color: rgba(5, 192, 192, 0.521);
-    border: 1px solid rgb(1, 100, 100);
     margin: 0 auto;
+    margin-bottom: 20px;
     padding: 10px;
     line-height: 2;
-    max-width: 300px;
+    max-width: 200px;
 }
 
 @media (max-width: 768px) {
