@@ -19,22 +19,3 @@
         max-width: 60%;
     }
 }
-
-.navigation__link {
-    color: blue;
-}
-
-.navigation__link:visited {
-    color: rgb(46, 0, 119);
-}
-
-.navigation__link:hover {
-    color: rgb(3, 51, 54);
-    background-color: rgb(114, 164, 221);
-    border-bottom: 1px solid;
-    outline: none;
-}
-
-.navigation__link:active {
-    color: purple;
-}
