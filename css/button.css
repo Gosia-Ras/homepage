@@ -5,6 +5,7 @@
     font-size: large;
     display: block;
     margin: 0 auto;
+    margin-bottom: 3px;
 }
 
 .button:hover {
