@@ -1,13 +1,15 @@
 .button {
-    background-color: #62dbc7;
-    border: 3px solid rgb(2, 97, 97);
+    background-color: #5ba397;
+    border: 2px outset rgb(2, 97, 97);
     font-weight: bold;
     font-size: large;
     display: block;
     margin: 0 auto;
+    margin-top: 5px;
+    padding: 5px
 }
 
 .button:hover {
     position: relative;
-    box-shadow: 5px 5px 16px 2px #3AF2BE;
+    box-shadow: 5px 5px 16px 2px #3af2be2c;
 }
