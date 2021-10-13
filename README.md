@@ -5,12 +5,9 @@ The website introduces me and my interests, as well as showcases photos I have t
 
 ## Homepage content: 
 
-- website navigation
 - my photo with a button to hide/show it
+- button to turn on/off dark mode
 - introduction 
-- table with games, clickable links that lead to the games Steam store
-- list of visited countries
-- photos from my travels with a button to show/hide them
 
 ## Demo: 
 https://gosia-ras.github.io/homepage/ <- click here to check out how it works
