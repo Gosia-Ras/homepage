@@ -4,8 +4,8 @@ This project is created as a part of front-end development course at YouCode.
 
 ## Homepage content: 
 
-- my photo with a button to hide/show it
 - button to turn on/off dark mode
+- page is set to dark mode automatically after 9pm
 - introduction 
 
 ## Demo: 
@@ -20,6 +20,7 @@ https://gosia-ras.github.io/homepage/ <- click here to check out how it works
 - CSS
 - BEM
 - EC6+
+- local storage
 
 Page display is optimized using media queries for comfortable use on mobile devices and large screens.
 
