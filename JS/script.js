@@ -14,6 +14,17 @@
       : "Dark mode on";
   };
 
+  const toggleBackgroundColor = () => {
+    const date = new Date();
+    const hour = date.getHours();
+    console.log(hour);
+    let body = document.body;
+
+    if (hour < 6 || hour > 21) {
+      return body.classList.toggle("body--dark");
+    }
+  };
+
   const currentTheme = localStorage.getItem("theme");
   if (currentTheme == "dark") {
       document.body.classList.add("body--dark");
@@ -36,4 +47,5 @@
   });
 
   onDarkMode();
+  toggleBackgroundColor();
 }
