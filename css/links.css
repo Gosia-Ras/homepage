@@ -8,10 +8,10 @@
 }
 
 .link:hover {
-    color: rgb(121, 51, 235);
+    color: rgb(5, 48, 46);
     outline: none;
 }
 
 .link:active {
-    color: rgb(165, 59, 165);
+    color: rgb(0, 95, 95);
 }
