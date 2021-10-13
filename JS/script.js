@@ -1,5 +1,6 @@
 {
   const buttonDark = document.querySelector(".js-onDarkButton");
+  const prefersDarkScheme = window.matchMedia("(prefers-color-scheme:dark)");
 
   const onDarkMode = () => {
     buttonDark.addEventListener("click", toggleDarkMode);
@@ -12,6 +13,27 @@
       ? "Dark mode off"
       : "Dark mode on";
   };
+
+  const currentTheme = localStorage.getItem("theme");
+  if (currentTheme == "dark") {
+      document.body.classList.add("body--dark");
+  } else if (currentTheme == "light") {
+      document.body.classList.toggle("light-theme");
+  }
+  
+  buttonDark.addEventListener("click", function () {
+      if(prefersDarkScheme.matches) {
+          document.body.classList.toggle("light-theme");
+          var theme = document.body.classList.contains("light-theme")
+          ? "light"
+          : "dark";
+      } else {
+          document.body.classList.toggle("body--dark")
+          ? "dark"
+          : "light";
+      }
+      localStorage.setItem("theme", theme);
+  });
 
   onDarkMode();
 }

@@ -1,15 +1,15 @@
 .header {
-    color: #2c2c2c;
-    background-color: #31ccb265;
-    border: none;
-    text-align: center;
-    margin-left: 20px;
-    max-width: 250px;
+  background-color: #aefdf0;
+  color: rgb(80, 80, 80);
+  border: none;
+  text-align: center;
+  margin-left: 20px;
+  max-width: 250px;
 }
 
 @media (max-width: 768px) {
-    .header {
-        margin: 0 auto;
-        margin-top: 10px;
-    }
+  .header {
+    margin: 0 auto;
+    margin-top: 10px;
+  }
 }
