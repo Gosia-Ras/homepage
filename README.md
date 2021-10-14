@@ -7,6 +7,7 @@ This project is created as a part of front-end development course at YouCode.
 - button to turn on/off dark mode
 - page is set to dark mode automatically after 9pm
 - introduction 
+- contact section with working icons directing to e-mail, LinkedIn profile and Instagram profile
 
 ## Demo: 
 https://gosia-ras.github.io/homepage/ <- click here to check out how it works
