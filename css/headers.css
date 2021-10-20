@@ -1,6 +1,7 @@
 .header {
-  background-color: #aefdf0;
-  color: rgb(80, 80, 80);
+  background-image: url(../images/header.png);
+  background-repeat: no-repeat;
+  color: azure;
   border: none;
   text-align: center;
   margin-left: 20px;
