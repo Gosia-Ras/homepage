@@ -1,8 +1,9 @@
 .section {
-    margin-left: 378px;
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 .section__link {
-    text-decoration: none;
+  text-decoration: none;
+  margin: 31px;
+  margin-left: 20px;
 }
