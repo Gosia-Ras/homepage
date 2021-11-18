@@ -3,9 +3,12 @@
   background-repeat: no-repeat;
   color: azure;
   border: none;
+  border-radius: 20px;
   text-align: center;
   margin-left: 20px;
   max-width: 250px;
+  padding: 10px;
+  box-shadow: inset 0px 0px 25px 1px #bbf7f756;
 }
 
 @media (max-width: 768px) {
